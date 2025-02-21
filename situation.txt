@@ -1,0 +1,36 @@
+•	How would you go about diagnosing the problem remotely?
+
+I’d use tools to try connecting remotely to the station (SSH for instance) or any platforms the company may have to do basic checks.  Thinking as if this 
+station is like the traditional ones to put gas in cars, I believe that there are more than one station or pump and, if it’s only one station with connection 
+problem, I’d discard an Internet layer issue, for example.
+I'd first do basic checks on connections like sending a ping, for example, if the EVSE or charger is capable of receiving pings. Secondly, as you say the 
+inconvenient is only in one station, I may think that the problem could be a wrong network configuration like DNS or IP configuration or even a firewall 
+that do not let the station connect.
+If the system saves logs, I’d check those looking for the error.  This way would be easier to address the solution to the connectivity problem.
+If the connection in the station is wired, this could also be the problem a physical connection problem; or if it’s wireless, there may be any obstacle 
+that interfere with the signal, again, thinking as if there are more than one station but only one has the issue.
+Lastly, as all the hardware is electronic stuff, check with someone physically there if there is a shortage or problems with energy supply or if station 
+has been unplugged from the electric line or if any electrical safety equipment went off.
+
+•	What steps would you take first to resolve the issue?
+
+Because we are impacting users that cannot charge their vehicles and the company reputation may be affected by those going to social media writing about 
+the issue, I may contact them in some way or ask to the community manager to do so (if we have one) to control the situation and calm down customers while 
+we check for a solution.  This is a must when dealing with public.
+Then, I’d go through the steps in first question and I’d use the Powerflex platforms and protocols (which I still don’t know) to detail, manage and solve 
+the situation.
+
+•	How would you prioritize addressing this issue while handling other ongoing support tickets or tasks?
+
+I’d think of the impact in customer service and money the company stops from getting.  The exercise says it is “high-traffic public EVSE station”.  So, I’d go 
+through the workload I have currently and prioritize regarding the affectation in quantity of customers.  For example, if there is a complete site affected 
+that has, let’s say 10 station that went off, this would go first and then the present issue.  It is probably needed to create a quick priority task list to 
+address all the issues in time leaving the less important to the very end for example, new developments, daily tasks, etc.
+
+•	When would you escalate the issue, and to whom? (Not an actual person but what would you think)
+
+If I manage to get the solution on my own, I’d obviously give closure to the case.  If I find the solution but I need someone to help me out (lack of 
+permissions or a physical presence in site) I’d escalate the issue to the right people and keep track until positive closure.  Companies some times keep 
+track of past issues and save them for future affectations.  In my actual job we call it “Lecciones Aprendidas” (lessons learned).
+If the solution is somehow a big deal and after all my checking persists, I’d elevate the issue to my supervisor giving all the documentation I managed 
+to collect so we can give together a solution to the problem.
