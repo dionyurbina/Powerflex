@@ -1,8 +1,15 @@
 •	How would you go about diagnosing the problem remotely?
 
-I’d use tools to try connecting remotely to the station (SSH for instance) or any platforms the company may have to do basic checks.  Thinking as if this 
-station is like the traditional ones to put gas in cars, I believe that there are more than one station or pump and, if it’s only one station with connection 
-problem, I’d discard an Internet layer issue, for example.
+I’d use tools to try connecting remotely to the station (SSH for instance) or any platforms the company may have to do basic checks online or remotely.  
+
+•	What steps would you take first to resolve the issue?
+
+Because we are impacting users that cannot charge their vehicles and the company reputation may be affected by those going to social media writing about 
+the issue, I may contact them in some way or ask to the community manager to do so (if we have one) to control the situation and calm down customers while 
+we check for a solution.  This is a must when dealing with public.
+
+Thinking as if this station is like the traditional ones to put gas in cars, I believe that there are more than one station or pump and, if it’s only 
+one station with connection problem, I’d discard an Internet layer issue, for example.
 I'd first do basic checks on connections like sending a ping, for example, if the EVSE or charger is capable of receiving pings. Secondly, as you say the 
 inconvenient is only in one station, I may think that the problem could be a wrong network configuration like DNS or IP configuration or even a firewall 
 that do not let the station connect.
@@ -12,13 +19,7 @@ that interfere with the signal, again, thinking as if there are more than one st
 Lastly, as all the hardware is electronic stuff, check with someone physically there if there is a shortage or problems with energy supply or if station 
 has been unplugged from the electric line or if any electrical safety equipment went off.
 
-•	What steps would you take first to resolve the issue?
-
-Because we are impacting users that cannot charge their vehicles and the company reputation may be affected by those going to social media writing about 
-the issue, I may contact them in some way or ask to the community manager to do so (if we have one) to control the situation and calm down customers while 
-we check for a solution.  This is a must when dealing with public.
-Then, I’d go through the steps in first question and I’d use the Powerflex platforms and protocols (which I still don’t know) to detail, manage and solve 
-the situation.
+I do believe that Powerflex protocols to deal with this kind of situations and managed in a clever way by SSEs would provide the expected timely solution.
 
 •	How would you prioritize addressing this issue while handling other ongoing support tickets or tasks?
 
