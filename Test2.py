@@ -33,9 +33,9 @@ json_data = [
     }
 ]
 
-def get_data(evsedata):
-    print(evsedata)
-    return evsedata
+#def get_data(evsedata):
+ #   print(evsedata)
+  #  return evsedata
 #['Parking Space']['Serial Number']['Energy Delivered']
 
 def parse_json():
